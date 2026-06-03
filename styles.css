@@ -1,0 +1,11 @@
+:root{
+    --primary: #1173d4
+    --primary-dark:
+}
+
+body {
+    font-family: sans-serif;
+    background-color: aliceblue;
+    min-height: 100vh;
+
+}
