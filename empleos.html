@@ -1,16 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Listado con empleos y filtros para encontrar el trabajo de tus sueños" />
     <title>DevJobs - Empleos</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
-
     <header>
         <h1>
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -29,14 +28,12 @@
             <a href="">Publicar un empleo</a>
             <a href="">Iniciar Sesion</a>
         </div>
-
     </header>
 
     <main>
         <section class="jobs-search">
             <h1>Encuentra tu próximo trabajo</h1>
             <p>Explora miles de oportunidades en el sector tecnológico</p>
-
 
             <form role="search">
                 <div class="search-bar">
@@ -48,7 +45,7 @@
                         <path d="M21 21l-6 -6" />
                     </svg>
 
-                    <input required type="text" placeholder="Buscar trabajos, empresas o habilidades">
+                    <input required type="text" placeholder="Buscar trabajos, empresas o habilidades" />
                 </div>
 
                 <div class="search-filters">
@@ -60,7 +57,6 @@
                         <option value="react">React</option>
                         <option value="nodejs">Node.js</option>
                     </select>
-
 
                     <select name="location" id="location">
                         <option value="">Ubicación</option>
@@ -83,42 +79,80 @@
         </section>
 
         <section>
-      <h2>Resultados de búsqueda</h2>
-        
+            <h2>Resultados de búsqueda</h2>
 
-    <article>
-        <div class="jobs-listings">
-            <h3>Lorem.</h3>
-            <small>Lorem, ipsum. | Escobar</small>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sit odio debitis nobis tempore, molestiae quibusdam magnam quidem sapiente omnis consectetur maxime eius est provident, sint quisquam modi rem dolorum.</p>
-        </div>
-        <button>Aplicar</button>
-    </article>
+            <article>
+                <div class="jobs-listings">
+                    <h3>Lorem.</h3>
+                    <small>Lorem, ipsum. | Escobar</small>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sit
+                        odio debitis nobis tempore, molestiae quibusdam magnam quidem
+                        sapiente omnis consectetur maxime eius est provident, sint
+                        quisquam modi rem dolorum.
+                    </p>
+                </div>
+                <button>Aplicar</button>
+            </article>
 
-    <article>
-        <div>
-            <h3>Lorem.</h3>
-            <small>Lorem, ipsum. | Escobar</small>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sit odio debitis nobis tempore, molestiae quibusdam magnam quidem sapiente omnis consectetur maxime eius est provident, sint quisquam modi rem dolorum.</p>
-        </div>
-        <button>Aplicar</button>
-    </article>
+            <article>
+                <div>
+                    <h3>Lorem.</h3>
+                    <small>Lorem, ipsum. | Escobar</small>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sit
+                        odio debitis nobis tempore, molestiae quibusdam magnam quidem
+                        sapiente omnis consectetur maxime eius est provident, sint
+                        quisquam modi rem dolorum.
+                    </p>
+                </div>
+                <button>Aplicar</button>
+            </article>
 
-    <article>
-        <div>
-            <h3>Lorem.</h3>
-            <small>Lorem, ipsum. | Escobar</small>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sit odio debitis nobis tempore, molestiae quibusdam magnam quidem sapiente omnis consectetur maxime eius est provident, sint quisquam modi rem dolorum.</p>
-        </div>
-        <button>Aplicar</button>
-    </article>
-    </section>
-        
+            <article>
+                <div>
+                    <h3>Lorem.</h3>
+                    <small>Lorem, ipsum. | Escobar</small>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sit
+                        odio debitis nobis tempore, molestiae quibusdam magnam quidem
+                        sapiente omnis consectetur maxime eius est provident, sint
+                        quisquam modi rem dolorum.
+                    </p>
+                </div>
+                <button>Aplicar</button>
+            </article>
+        </section>
     </main>
 
+    <nav class="pagination">
+
+        <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M15 6l-6 6l6 6" />
+                </svg>
+            </a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M9 6l6 6l-6 6" />
+            </svg>
+        </>
+
+    </nav>
+
     <footer>
-        <small>&copy; 2026 DevJobs. Todos los derechos reservados.
-        </small>
+        <small>&copy; 2026 DevJobs. Todos los derechos reservados. </small>
     </footer>
 </body>
 
